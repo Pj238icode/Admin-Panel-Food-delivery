@@ -1,0 +1,40 @@
+.add-food-container {
+  max-width: 550px;
+}
+
+.upload-box {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+}
+
+.upload-preview {
+  width: 140px;
+  height: 140px;
+  border-radius: 10px;
+  object-fit: cover;
+  border: 2px dashed #ccc;
+  transition: 0.3s ease;
+}
+
+.upload-preview:hover {
+  border-color: #007bff;
+  transform: scale(1.02);
+}
+
+.upload-text {
+  position: absolute;
+  bottom: -18px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 13px;
+  color: #555;
+}
+
+.card {
+  border-radius: 15px;
+}
+
+button:hover {
+  background-color: #0056b3 !important;
+}

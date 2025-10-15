@@ -6,7 +6,7 @@ const Sidebar = ({sidebarVisible}) => {
   return (
     <div className={`border-end bg-white ${sidebarVisible ? '': 'd-none'}`} id="sidebar-wrapper">
         <div className="sidebar-heading border-bottom bg-light">
-            <img src={assets.logo} alt="" height={32} width={32}/>
+            <img src={assets.logo} alt="" height={100} width={100}/>
         </div>
         <div className="list-group list-group-flush">
             <Link className="list-group-item list-group-item-action list-group-item-light p-3" to="/add">

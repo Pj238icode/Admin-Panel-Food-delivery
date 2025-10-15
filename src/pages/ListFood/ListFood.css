@@ -1,3 +1,29 @@
-.table td {
-    vertical-align: middle;
+.list-food-container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.food-img {
+  width: 55px;
+  height: 55px;
+  border-radius: 8px;
+  object-fit: cover;
+  border: 2px solid #eee;
+}
+
+.table-row:hover {
+  background-color: #f9f9f9;
+  transition: 0.2s ease-in-out;
+}
+
+.delete-btn {
+  transition: 0.3s ease-in-out;
+}
+
+.delete-btn:hover {
+  background-color: #b30000;
+}
+
+.card {
+  border-radius: 10px;
 }
