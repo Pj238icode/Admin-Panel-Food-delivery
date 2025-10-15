@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = 'http://localhost:8081/api/foods';
+const API_URL = 'https://full-stack-food-delivery-app-3m3f.onrender.com/api/foods';
 
 export const addFood = async (foodData, image) => {
     const formData = new FormData();
